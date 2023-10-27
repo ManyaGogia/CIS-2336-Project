@@ -2,12 +2,20 @@
     <title> Car Dealership Name </title>
     <head>
         <link rel="stylesheet" href="project.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="project.js"></script>
     </head>
-    <body>
-        <table>
-            <tr>
+    <body style="background-color: #d9e7ff;">
+        <table style="border: 0;">
+            <tr class="header_table">
                 <th>
-                    <!-- Intentionally left empty because CSS-->
+                    <div id="container">
+                        <div id="mover">
+                            <button onclick="myMove()" class="car_button">
+                                <img src="car_head.png" id="car_left">
+                            </button>
+                        </div>
+                    </div>
                 </th>
                 <th id = "title_cell">
                     <h1 id="main_title">A Really Good Car Dealership Name</h1>
@@ -16,7 +24,9 @@
                     <img src = "car_dealership_logo_PLACEHOLDER.jpg" id="dealer_logo">
                 </th>
                 <th>
-                    <!-- Intentionally left empty because CSS-->
+                    <button onclick="carDrive()" class="car_button">
+                        <img src="car_head1.png" id="car_right">
+                    </button>
                 </th>
             </tr>
             
@@ -24,31 +34,49 @@
         <table class = "center">
             <tr>
                 <th class = "navi_cell">
-                    <a href = "about.html">About </a>
+                    <a href = "about.html">
+                        <button class="navi_button">About</button>
+                    </a>
                 </th>
                 <th class = "navi_cell">
-                    <a href = "about_Us.html">About Us </a>
+                    <a href = "about_Us.html">
+                        <button class="navi_button">About Us</button>
+                    </a>
                 </th>
                 <th class = "navi_cell">
-                    <a href = "meet_The_Team.html">Meet the Team </a>
+                    <a href = "meet_The_Team.html">
+                        <button class="navi_button">Meet the Team</button>
+                    </a>
                 </th>
                 <th class = "navi_cell">
-                    <a href = "careers.html">Careers </a>
+                    <a href = "careers.html">
+                        <button class="navi_button">Careers</button>
+                    </a>
                 </th>
                 <th class = "navi_cell">
-                    <a href = "services.html">Services </a>
+                    <a href = "services.html">
+                        <button class="navi_button">Services</button>
+                    </a>
                 </th>
                 <th class = "navi_cell">
-                    <a href = "new_Cars.html">New Cars </a>
+                    <a href = "new_Cars.html">
+                        <button class="navi_button">New Cars</button>
+                    </a>
                 </th>
                 <th class = "navi_cell">
-                    <a href = "used_Cars.html">Used Cars </a>
+                    <a href = "used_Cars.html">
+                        <button class="navi_button">Used Cars</button>
+                    </a>
                 </th>
                 <th class = "navi_cell">
-                    <a href = "looking_To_Sell.html">Looking to Sell? </a>
+                    <a href = "looking_To_Sell.html">
+                        <button class="navi_button"> Looking to Sell? </button>
+                    </a>
                 </th>
                 <th class = "navi_cell">
-                    <a href = "contact_Us.html">Contact Us </a>
+                    <a href = "contact_Us.html">
+                        <button class="navi_button"> Contact Us </button>
+                    </a>
                 </th>
             </tr>
         </table>
