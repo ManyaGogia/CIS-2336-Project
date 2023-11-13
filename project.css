@@ -84,6 +84,7 @@
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-image: url('Images/career-bg.png');
 }
 .job-listing {
     border: 1px solid #ccc;
@@ -92,10 +93,11 @@
     width: 96%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: left;
+    background-color: #ffffffaf;
 }
 .newcar-head {
     width: max-content;
-    text-shadow: 1.5px 1.5px 2.5px gray;
+    text-shadow: 1.5px 1.5px 2.5px rgb(128, 128, 128);
     font-size: larger;
     padding: 2%;
 }
